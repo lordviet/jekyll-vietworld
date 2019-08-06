@@ -1,0 +1,12 @@
+.site-header{
+    border-bottom: 1px solid black;
+}
+
+.site-title{
+
+}
+
+.site-title a{
+    display: block;
+    padding: 0.5em;
+}
