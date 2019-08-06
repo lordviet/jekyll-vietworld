@@ -9,4 +9,7 @@
     --color-body-background: #FFF;
     --color-body-text: #000;    
     --color-link-default: #A00;
+    --color-border-default: #999;
+
+    --spacing-layout-elements: 2em;
 }

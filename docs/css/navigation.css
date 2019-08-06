@@ -4,6 +4,7 @@
 
 .site-nav > ul{
     display: flex;
+    padding: 0;
 }
 
 .site-nav li {
