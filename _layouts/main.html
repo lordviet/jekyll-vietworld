@@ -7,25 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+    <script src="{{ site.baseurl }}/scripts/navigation.js"></script>
 </head>
 
 <body>
     <div class="site">
         <header class="site-header">
-            <h1 class="site-title">
-                <a href="{{ site.baseurl }}/">{{site.title}}</a>
-            </h1>
-            <nav class="site-nav">
-                <ul>
-                    {% for page in site.pages %}
-                        {% if page.title %}
-                            <li>
-                                <a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-            </nav>
+            {% include navigation.html %}
+            <div class="header-heading">
+                <button onclick="openNav()">☰</button>
+                <h1 class="site-title">
+                    <a href="{{ site.baseurl }}/">{{site.title}}</a>
+                </h1>
+            </div>
         </header>
         <main class="site-main">
             {{content}}

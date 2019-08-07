@@ -1,0 +1,12 @@
+<nav class="site-nav" id="navbar">
+    <button onclick="closeNav()">Close &times;</button>
+    <ul>
+        {% for page in site.pages %}
+        {% if page.title %}
+        <li>
+            <a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</nav>

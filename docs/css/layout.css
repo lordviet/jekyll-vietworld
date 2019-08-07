@@ -1,13 +1,13 @@
 .site{
-    max-width: var(--layout-main-width);
-    margin: 0 auto;
-    padding: 2em;
+    /* max-width: var(--layout-main-width); */
+    /* margin: 0 auto; */
+    /* padding: 2em; */
 }
 
-.site-header{
+/* .site-header{
     display: flex;
 }
 
 .site-header nav{
     margin-left: auto;
-}
+} */
