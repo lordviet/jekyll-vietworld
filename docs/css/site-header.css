@@ -3,6 +3,21 @@
     margin-bottom: var(--spacing-layout-elements);
 }
 
+.header-heading{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.header-heading > button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: var(--font-size-header);
+    outline: none;
+    order: 2;
+}
+
 .site-title{
     margin: 0;
     padding: 0;
@@ -10,5 +25,7 @@
 
 .site-title a{
     display: block;
-    padding: 0.5em;
+    padding: 0.5em 1em;
+    font-size: var(--font-size-header);
+    order: 1;
 }

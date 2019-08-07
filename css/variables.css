@@ -3,12 +3,15 @@
     --font-size-body-larger: 16px;
     --font-size-body-big: 18px;
     --font-size-body-huge: 20px;
-
+    --font-size-header: 1.5em;
     --layout-main-width: 60em;
 
-    --color-body-background: #FFF;
-    --color-body-text: #000;    
-    --color-link-default: #A00;
+    --color-elements: #00FF00; 
+    /* --color-elements: #16ffbd;  */
+
+    --color-body-background: #000;
+    --color-body-text: #fff;    
+    --color-link-default: #fff;
     --color-border-default: #999;
 
     --spacing-layout-elements: 2em;

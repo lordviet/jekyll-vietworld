@@ -1,25 +1,37 @@
-.site-nav{
-    display: none;
-    background: #000;
+.site-nav {
+    background: var(--color-elements);
     height: 100%;
     width: 100%;
     position: fixed;
     z-index: 1;
     overflow: auto;
+    transition: opacity 0.15s linear;
 }
 
-/* .site-nav > ul{
-    display: flex;
-    padding: 0;
+.site-nav-visible {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.site-nav-hidden {
+    transform: translate(9999px);
+    opacity: 0;
 }
 
 .site-nav li {
     display: block;
     list-style: none outside;
-    padding: 0 0.5em;
 }
 
-.site-nav li {
-    display: block;
-    padding: 0.5em 1em;
-} */
+.site-nav li a {
+    color: #000;
+    font-size: 6em;
+    font-family: "Suez One", serif;
+    border-bottom: 0 solid #fff;
+    transition: border-bottom 0.15s ease-in-out;
+}
+
+.site-nav li a:hover {
+    transform: translate(0);
+    border-bottom: 0.05em solid #fff;
+}
