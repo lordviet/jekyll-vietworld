@@ -15,17 +15,19 @@
     border: none;
     font-size: var(--font-size-header);
     outline: none;
+    cursor: pointer;
     order: 2;
 }
 
 .site-title{
     margin: 0;
+    margin-right: 0.8em;
     padding: 0;
 }
 
 .site-title a{
     display: block;
-    padding: 0.5em 1em;
+    padding: 0.5em;
     font-size: var(--font-size-header);
     order: 1;
 }

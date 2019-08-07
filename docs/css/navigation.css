@@ -8,6 +8,17 @@
     transition: opacity 0.15s linear;
 }
 
+.site-nav button {
+    background-color: var(--color-elements);
+    color: #000;
+    border: none;
+    font-size: 3em;
+    outline: none;
+    margin: 0.5em 1em;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out;
+}
+
 .site-nav-visible {
     transform: translate(0);
     opacity: 1;
@@ -25,7 +36,7 @@
 
 .site-nav li a {
     color: #000;
-    font-size: 6em;
+    font-size: 4.5em;
     font-family: "Suez One", serif;
     border-bottom: 0 solid #fff;
     transition: border-bottom 0.15s ease-in-out;
@@ -34,4 +45,27 @@
 .site-nav li a:hover {
     transform: translate(0);
     border-bottom: 0.05em solid #fff;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* margin: 0.5em 1.5em; */
+    padding-left: 2em;
+}
+
+.social-media>a {
+    margin: 1em;
+}
+
+.social-media>a>i {
+    font-size: 3em;
+    color: #000;
+    transition: color 0.15s ease-in-out;
+}
+
+.site-nav button:hover, .social-media>a>i:hover {
+    transform: translate(0);
+    color: #fff;
 }
