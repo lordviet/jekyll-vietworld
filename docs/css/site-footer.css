@@ -1,5 +1,13 @@
-.site-footer{
-    border-top: 1px solid var(--color-border-default);
+.site-footer {
+    /* border-top: 1px solid var(--color-border-default); */
     margin-top: var(--spacing-layout-elements);
     padding-top: 1em;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+}
+
+.site-footer>p {
+    text-align: center;
+    /* margin-bottom: -2em; */
 }

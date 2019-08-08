@@ -11,22 +11,22 @@
 .site-header nav{
     margin-left: auto;
 } */
-.main-header{
+
+.main-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
 }
 
 .main-header>h1 {
     margin: 0em 0.2em;
 }
 
-.main-header-slogans{
+.main-header-slogans {
     display: flex;
 }
 
-.main-header-slogans>h6{
+.main-header-slogans>h6 {
     margin: 0em 0.2em;
     padding: 0em 1em;
     max-width: 15em;
@@ -47,6 +47,34 @@
     /* margin: 0em -0.1em 0em 0.2em; */
 }
 
-h6 > span{
-    color: var(--color-elements);
+.index-header {
+    margin-bottom: 4em;
+    padding-bottom: 2em;
+    /* border: 2px solid red; */
+}
+
+/* 
+.main-content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.main-content>img{
+    border: 2px solid red;
+    width: 25%;
+    margin-top: -5em;
+    padding-bottom: -2em;
+} */
+
+.main-heading-spans{
+    flex: 0 0 60%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-content>img {
+    width: 75%;
 }
