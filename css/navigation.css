@@ -16,7 +16,7 @@
     outline: none;
     margin: 0.5em 1em;
     cursor: pointer;
-    transition: color 0.15s ease-in-out;
+    transition: var(--transition-color-options);
 }
 
 .site-nav-visible {
@@ -61,7 +61,7 @@
 .social-media>a>i {
     font-size: 3em;
     color: #000;
-    transition: color 0.15s ease-in-out;
+    transition: var(--transition-color-options);
 }
 
 .site-nav button:hover, .social-media>a>i:hover {

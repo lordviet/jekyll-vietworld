@@ -25,9 +25,11 @@
     padding: 0.5em;
     font-size: var(--font-size-header);
     order: 1;
+    transition: var(--transition-color-options);
 }
 
 .site-title:hover, .header-heading>button:hover {
+    transform: translate(0);
     color: var(--color-elements);
 }
 

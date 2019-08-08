@@ -15,4 +15,5 @@
     --color-border-default: #999;
 
     --spacing-layout-elements: 2em;
+    --transition-color-options: color 0.15s ease-in-out;
 }
