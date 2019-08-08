@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
     <script src="{{ site.baseurl }}/scripts/navigation.js"></script>
+    <script src="{{ site.baseurl }}/scripts/title.js"></script>
 </head>
 
 <body>
@@ -17,9 +18,7 @@
             {% include navigation.html %}
             <div class="header-heading">
                 <button onclick="openNav()">☰</button>
-                <h1 class="site-title">
-                    <a href="{{ site.baseurl }}/">{{site.title}}</a>
-                </h1>
+                <a class="site-title" href="{{ site.baseurl }}/">{{site.title}}</a>
             </div>
         </header>
         <main class="site-main">
