@@ -1,42 +1,32 @@
 .animate-reveal {
-    opacity: 0;
-    -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
-    animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
-}
+  opacity: 0;
+  -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards; }
 
 .animate-first {
-    -webkit-animation-delay: 0;
-    animation-delay: 0;
-}
+  -webkit-animation-delay: 0;
+  animation-delay: 0; }
 
 .animate-second {
-    -webkit-animation-delay: 500ms;
-    animation-delay: 500ms;
-}
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms; }
 
 .animate-third {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
 
 @-webkit-keyframes reveal {
-    0% {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+  0% {
+    opacity: 0;
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
 
 @keyframes reveal {
-    0% {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+  0% {
+    opacity: 0;
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }

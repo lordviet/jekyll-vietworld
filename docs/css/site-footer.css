@@ -1,13 +1,11 @@
 .site-footer {
-    margin-top: var(--spacing-layout-elements);
-    padding-top: 1em;
-    /* position: absolute;
+  margin-top: var(--spacing-layout-elements);
+  padding-top: 1em;
+  /* position: absolute;
     right: 0;
     bottom: 0;
     left: 0; */
-    /* Check if you can fit enough content in the other pages*/
-}
+  /* Check if you can fit enough content in the other pages*/ }
 
-.site-footer>p {
-    text-align: center;
-}
+.site-footer > p {
+  text-align: center; }

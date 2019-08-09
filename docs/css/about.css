@@ -1,23 +1,20 @@
 .about-btn-container {
-    display: flex;
-    justify-content: flex-start;
-}
+  display: flex;
+  justify-content: flex-start; }
 
-.about-btn-container>a {
-    color: #fff;
-    text-decoration: none;
-    background: #000;
-    padding: 0.8em;
-    border: 2px solid #fff;
-    border-radius: 2.5em;
-    cursor: pointer;
-    transition: all 0.4s ease 0s;
-    margin: 1em;
-}
+.about-btn-container > a {
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  padding: 0.8em;
+  border: 2px solid #fff;
+  border-radius: 2.5em;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+  margin: 1em; }
 
-.about-btn-container>a:hover {
-    color: #000;
-    background: var(--color-elements);
-    border-color: var(--color-elements);
-    transition: all 0.4s ease 0s;
-}
+.about-btn-container > a:hover {
+  color: #000;
+  background: var(--color-elements);
+  border-color: var(--color-elements);
+  transition: all 0.4s ease 0s; }
