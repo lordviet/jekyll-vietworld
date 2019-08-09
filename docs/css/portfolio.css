@@ -3,9 +3,8 @@
     grid-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    /* max-width: 100%; */
-    /* margin-top: 5em; */
-    font-size: 0;
+    max-width: 100%;
+    /* font-size: 0; */
 }
 
 .main-item, .standard-item {
@@ -18,6 +17,16 @@
     display: inline-block;
     min-height: 400px;
     width: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.news-item:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .main-item {
