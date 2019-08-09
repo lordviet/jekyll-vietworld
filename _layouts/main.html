@@ -7,7 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" >
+    <!-- {% if page.style %}
+        <style type="text/css">
+            {{ page.style }}
+        </style>
+    {% endif %} -->
     <script src="{{ site.baseurl }}/scripts/navigation.js"></script>
     <script src="{{ site.baseurl }}/scripts/title.js"></script>
 </head>
@@ -21,7 +26,7 @@
                 <a class="site-title" href="{{ site.baseurl }}/">{{site.title}}</a>
             </div>
         </header>
-        <main class="site-main">
+        <main class="site-main" >
             {{content}}
         </main>
         <footer class="site-footer">

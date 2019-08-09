@@ -71,3 +71,24 @@
     border-color: var(--color-elements);
     transition: all 0.4s ease 0s;
 }
+
+.content-wrapper {
+    padding: 0.5em 2em;
+}
+
+/* BLOG POSTS STYLES */
+.site-main>ol, .site-main>ul{
+    padding: 0.5em 3em;
+}
+
+.site-main>ul>li, .site-main>ol>li{
+    padding: 0em 0.5em;
+}
+
+.site-main>p, .site-main>a{
+    padding: 0.5em 2em;
+}
+
+.site-main>h1, .site-main>h2, .site-main>h3, .site-main>h4, .site-main>h5, .site-main>h6 {
+    padding: 1em 1em 0.5em 1em;
+}

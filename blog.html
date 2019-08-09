@@ -5,16 +5,19 @@ permalink: /blog/
 ---
 
 <section>
-    <header>
-        <h2>Latest Posts</h2>
+    <header class="main-header">
+        <h1 class="animate-reveal animate-first">Blog</h1>
     </header>
-
-    <div class="content">
-        <ul>
+    <div class="content-wrapper animate-reveal animate-second">
+        <h2>Latest posts</h2>
+        <ul class="blog-wrapper">
             {% for post in site.posts %}
-            <li>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </li>
+            <a class="post-content" href="{{ site.baseurl }}{{ post.url }}">
+                <li>
+                    <p class="post-title">{{ post.title }}</p>
+                    <p>{{ post.date-word }}</p>
+                </li>
+            </a>
             {% endfor %}
         </ul>
     </div>

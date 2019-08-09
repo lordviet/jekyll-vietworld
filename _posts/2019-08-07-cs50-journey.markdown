@@ -1,0 +1,16 @@
+---
+layout: main
+title:  "My CS50 Journey"
+date:   2019-08-07 23:37:05 +0300
+date-word: 7 August 2019
+categories: tech
+---
+## What is CS50?
+
+Currently there is a limitless number of online courses and tutorials. CS50 is one of the best ones out there that will push you to the limit and ultimately make you a better programmer. It is a Harvard Course that one can take for free in edx. 
+
+It has 9 weeks of content with different programming tasks. In the beginning, it covers the basics of C programming where you learn about functions, pointers and structs. Afterwards it moves to Python and Javascript. It is really challenging because the tasks are really different and made in such a way that you have to think to solve them. They are different and interesting. 
+
+Although it is a hard course and quite time-consuming, I can not recommend it enough. It helped me a lot on my journey. CS50 shows the different faces of computer science and by the end you may find which one suits you the best.
+
+[Start right now](https://www.edx.org/course/cs50s-introduction-to-computer-science)
