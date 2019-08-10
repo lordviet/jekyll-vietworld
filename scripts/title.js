@@ -6,7 +6,7 @@ function changingTitle() {
     function loopThrough() {
         title.innerHTML = arr[i];
         i++;
-        if (i === arr.length) {
+        if (i === howManyTimes) {
             i = 0
         }
         if (i < howManyTimes) {

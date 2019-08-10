@@ -1,10 +1,10 @@
 .site {
-    position: relative;
-    min-height: 100vh;
-  }
+  position: relative;
+  min-height: 100vh;
+}
 
-.site-main{
-    padding-bottom: 2.5rem;
+.site-main {
+  padding-bottom: 2.5rem;
 }
 
 .main-header {
@@ -37,7 +37,6 @@
   color: var(--color-elements);
   font-size: 6em;
   margin: 0em 0em 0em 0.2em;
-  /* margin: 0em -0.1em 0em 0.2em; */
 }
 
 .index-header {
@@ -110,6 +109,13 @@
   padding: 1em 1em 0.5em 1em;
 }
 
+@media screen and (min-width: 1800px) {
+  .main-content > img {
+    width: 85%;
+    margin-left: 20em;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .main-header {
     flex-direction: column;
@@ -122,14 +128,6 @@
   }
   .main-heading-additional > h4 {
     font-size: 3em;
-  }
-  .site-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    /* Check if you can fit enough content in the other pages*/
   }
 }
 
