@@ -96,6 +96,13 @@ blockquote .author:before {
   content: '\2014';
   padding-right: 0.5em; }
 
+.site {
+  position: relative;
+  min-height: 100vh; }
+
+.site-main {
+  padding-bottom: 2.5rem; }
+
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -189,7 +196,14 @@ blockquote .author:before {
   .main-heading-additional {
     margin: 1em 0em; }
   .main-heading-additional > h4 {
-    font-size: 3em; } }
+    font-size: 3em; }
+  .site-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Check if you can fit enough content in the other pages*/ } }
 
 @media screen and (max-width: 350px) {
   .main-header {
@@ -271,7 +285,11 @@ blockquote .author:before {
     right: 0;
     bottom: 0;
     left: 0; */
-  /* Check if you can fit enough content in the other pages*/ }
+  /* Check if you can fit enough content in the other pages*/
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; }
 
 .site-footer > p {
   text-align: center; }

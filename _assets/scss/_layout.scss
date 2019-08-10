@@ -1,3 +1,12 @@
+.site {
+    position: relative;
+    min-height: 100vh;
+  }
+
+.site-main{
+    padding-bottom: 2.5rem;
+}
+
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -101,11 +110,6 @@
   padding: 1em 1em 0.5em 1em;
 }
 
-// @media screen and (max-width: 1200px) {
-//   .blog-wrapper {
-//     flex: 0 0 50%;
-//   }
-// }
 @media screen and (max-width: 991px) {
   .main-header {
     flex-direction: column;
@@ -119,22 +123,15 @@
   .main-heading-additional > h4 {
     font-size: 3em;
   }
+  .site-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Check if you can fit enough content in the other pages*/
+  }
 }
-
-// @media screen and (max-width: 600px) {
-//   .main-header {
-//     flex-direction: column;
-//   }
-//   .main-header > h1 {
-//     font-size: 4.5em;
-//   }
-//   .main-heading-additional {
-//     margin: 1em 0em;
-//   }
-//   .main-heading-additional > h4 {
-//     font-size: 3em;
-//   }
-// }
 
 @media screen and (max-width: 350px) {
   .main-header {
