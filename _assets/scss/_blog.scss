@@ -1,30 +1,48 @@
 .blog-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 1.5em 0em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 1.5em 0em;
+  padding-left: 0em !important;
 }
 
 .post-content {
-    flex: 0 0 30%;
-    margin: 1em;
-    border: 2px solid #fff;
-    transition: all 0.2s ease-in-out;
+  flex: 0 0 30%;
+  margin: 1em;
+  border: 2px solid #fff;
+  transition: all 0.2s ease-in-out;
 }
 
 .post-content:hover {
-    color: #000;
-    border: 2px solid var(--color-elements);
-    background-color: var(--color-elements);
-    transition: all 0.2s ease-in-out;
+  color: #000;
+  border: 2px solid var(--color-elements);
+  background-color: var(--color-elements);
+  transition: all 0.2s ease-in-out;
 }
 
-.post-content>li {
-    margin: 1em;
-    list-style: none outside;
-    text-align: center;
+.post-content > li {
+  margin: 1em;
+  list-style: none outside;
+  text-align: center;
 }
 
 .post-title {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
+
+@media screen and (max-width: 1200px) {
+  .blog-wrapper {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .blog-wrapper {
+    flex-direction: column;
+  }
+}
+
+// @media screen and (max-width: 479px) {
+//   .blog-wrapper {
+//     flex-direction: column;
+//   }
+// }
