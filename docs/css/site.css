@@ -10,7 +10,6 @@
   --color-body-background: #000;
   --color-body-text: #fff;
   --color-link-default: #fff;
-  --color-border-default: #999;
   --spacing-layout-elements: 2em;
   --transition-color-options: color 0.15s ease-in-out; }
 
@@ -121,8 +120,7 @@ blockquote .author:before {
 
 .main-heading-additional {
   display: flex;
-  align-items: center;
-  /* TRY WITHOUT ALIGN ITEMS */ }
+  align-items: center; }
 
 .main-heading-additional > span {
   color: var(--color-elements);
@@ -211,10 +209,6 @@ blockquote .author:before {
     margin: 1em 0em; }
   .main-heading-spans > h4 {
     font-size: 1.2em; } }
-
-.site-header {
-  /* border-bottom: 1px solid var(--color-border-default); */
-  /* margin-bottom: var(--spacing-layout-elements); */ }
 
 .header-heading {
   display: flex;
